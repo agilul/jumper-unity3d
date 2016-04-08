@@ -31,8 +31,8 @@ public class PlayerController : MonoBehaviour
     private GameObject bubbleObject;
 
 	// Use this for initialization
-	void Start()
-	{
+    void Start()
+    {
         rigidbody = GetComponent<Rigidbody2D>();
         collider = GetComponent<Collider2D>();
         animator = GetComponent<Animator>();
@@ -53,9 +53,8 @@ public class PlayerController : MonoBehaviour
         bubbleObject.SetActive(false);
     }
 	
-	// Update is called once per frame
-	void Update()
-	{
+    void Update()
+    {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             rigidbody.position = new Vector2(0f, 0f);
