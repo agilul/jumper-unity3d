@@ -1,2 +1,2 @@
-# jumper-unity3d
+# Jumper
 A simple jumper game.
